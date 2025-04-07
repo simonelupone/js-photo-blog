@@ -19,7 +19,7 @@ h1 {
     text-align: center;
     font-family: var(--title-font);
     /* font-size: 4em; */
-    font-size: clamp(2rem, 5vw, 4rem);;
+    font-size: clamp(3rem, 5vw, 5rem);;
     text-transform: uppercase;
 }
 
@@ -57,10 +57,14 @@ main {
 
 .card-info h4 {
     font-family: var(--title-font);
+    font-size: 2rem;
+    text-transform: uppercase;
 }
 
 .card-info .date {
     font-family: var(--date-font);
+    color: gray;
+    font-weight: 800;
 }
 
 .pin {
