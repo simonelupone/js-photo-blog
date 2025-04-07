@@ -1,0 +1,23 @@
+:root {
+    --title-font: "Edu TAS Beginner", cursive;
+    --date-font: "Sometype Mono", monospace;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+
+    background-image: url('../img/wall.png');
+}
+
+h1 {
+    padding: 24px;
+    text-align: center;
+    font-family: var(--title-font);
+    font-size: 4em;
+    text-transform: uppercase;
+}
