@@ -40,8 +40,20 @@ main {
     background-color: #fff;
 }
 
+.card .card-content > img {
+    width: 400px;
+}
+
 .card-info {
     padding-top: 10px;
+}
+
+.card-info h4 {
+    font-family: var(--title-font);
+}
+
+.card-info .date {
+    font-family: var(--date-font);
 }
 
 .pin {
