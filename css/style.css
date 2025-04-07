@@ -21,3 +21,32 @@ h1 {
     font-size: 4em;
     text-transform: uppercase;
 }
+
+main {
+    background-image: url('../img/cork.png');
+}
+
+.container {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    position: relative;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.card-info {
+    padding-top: 10px;
+}
+
+.pin {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
